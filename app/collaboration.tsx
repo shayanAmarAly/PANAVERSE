@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import panacloud from "../public/panacouldu.svg"
-import saylani from "../public/saylanilogo.png"
+import saylani from "../public/saylaniLogo.png"
 
 const Collaboration = () => {
   return (

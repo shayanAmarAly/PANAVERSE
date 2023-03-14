@@ -3,11 +3,10 @@ import Image from 'next/image'
 import send from "../public/send-mail.png"
 import footer from "../public/footer.png"
 import facebook from "../public/facebook.png"
-import insta from "../public/instagram.png"
 import twitter from "../public/twitter.png"
 import github from "../public/github.png"
 import linkedIn from "../public/linkedin.png"
-import panaverse from "../../pana_web/public/panaverse.png"
+import panaverse from "../public/panaverse.png"
 import Link from 'next/link'
 
 const Footer = () => {
@@ -35,7 +34,7 @@ const Footer = () => {
                 <div id='row-2' className='flex flex-col py-5 text-indigo-100 tablet:w-3/4 tablet:m-auto'>
                     <div className='space-y-5 tablet:pb-3'>
                         <Image src={panaverse} alt={"panaverse"} width={60} className={"pb-3"}></Image>
-                        <i className=''>'Unleash the power of tomorrow with us.'</i>
+                        <i className=''>&apos;Unleash the power of tomorrow with us.&apos;</i>
                     </div>
                     <div className='grid tablet:grid-cols-3 grid-cols-1 '>
                         <div className='leading-loose'>
@@ -61,7 +60,7 @@ const Footer = () => {
                             </h4>
                         </div>
                         <div className='leading-loose'>
-                            <h4>Let's Learn.</h4>
+                            <h4>Let&apos;s Learn.</h4>
                             <p>piaic@hotmail.com</p>
                             <div className='flex justify-between tablet:justify-start space-x-5 py-5'>
                                 <Image src={twitter} alt={"twitter"}></Image>

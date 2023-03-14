@@ -1,7 +1,6 @@
 import Image from "next/image";
 import blockchain from "../public/blockchain.jpg";
 import { useEffect, useState } from 'react';
-import fetch from 'isomorphic-unfetch';
 // import  randomImages from "./data";
 interface imageData{
   image: string, 

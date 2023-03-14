@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image'
-import logo from "../../pana_web/public/logo.webp"
+import logo from "../public/logo.webp"
 import About from "../../pana_web/public/about.png"
 import Admin from "../../pana_web/public/admin.png"
 import Courses from "../../pana_web/public/courses.png"
