@@ -1,0 +1,29 @@
+.gradient {
+  background-image:
+    radial-gradient(
+      circle at bottom left,
+      #ff8a00,
+      /* #e52e71 */
+    );
+}
+.button{
+  box-shadow: rgba(253, 253, 253, 0.438) 0px 8px 24px;
+}
+.shine{
+  text-shadow: 0 0 35px hsl(0deg 0% 100% / 64%);    
+  background-image: none;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 0 0 25px hsl(0deg 0% 100% / 64%);
+  background-clip: border-box;
+  -webkit-text-fill-color: inherit;
+}
+#opac-line-break {
+  width: 100%;
+  height: 1.6px;
+  max-width: 400px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  background-image: radial-gradient(circle farthest-corner at 50% 50%, #c5cefa 15%, #191b35);
+  opacity: 0.28;
+}
