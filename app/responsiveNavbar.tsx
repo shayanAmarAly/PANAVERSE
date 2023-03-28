@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image'
 import logo from "../public/logo.webp"
 import About from "../../pana_web/public/about.png"
+
 import Admin from "../../pana_web/public/admin.png"
 import Courses from "../../pana_web/public/courses.png"
 import { useRouter } from 'next/navigation'
@@ -17,14 +18,14 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex items-center justify-between flex-wrap bg-blue-500 p-6">
+    <nav className="flex items-center justify-between flex-wrap bg-violet-900 bg-opacity-70 p-6">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
         <Link href="/">
         <Image src={logo} alt={"logo"} ></Image>
           {/* <p className="font-semibold text-xl tracking-tight">My Logo</p> */}
         </Link>
       </div>
-      <div className="block tablet:hidden">
+      <div className="block md:hidden">
         <button
           className="flex items-center px-3 py-2 border rounded text-white border-white hover:text-white hover:border-white"
           onClick={toggleMenu}
@@ -37,10 +38,10 @@ const Navbar = () => {
           isOpen ? 'block' : 'hidden'
         } w-full block flex-grow tablet:flex tablet:items-center tablet:w-auto`}
       >
-        <div className="text-md tablet:flex-grow">
+        <div className="text-md tablet:flex-grow flex flex-col tablet:flex tablet:flex-row tablet:items-center">
           <Link href="/">
             <p
-              className="block mt-4 tablet:inline-block tablet:mt-0 text-white hover:text-gray-200 mr-4"
+              className="block mt-5 tablet:inline-block tablet:mt-0 text-white hover:text-gray-200 mr-4"
               onClick={toggleMenu}
             >
               Home
@@ -48,10 +49,18 @@ const Navbar = () => {
           </Link>
           <Link href="/about">
             <p
-              className="block mt-4 tablet:inline-block tablet:mt-0 text-white hover:text-gray-200 mr-4"
+              className="block my-3 tablet:my-0 tablet:inline-block tablet:mt-0 text-white hover:text-gray-200 mr-4"
               onClick={toggleMenu}
             >
               About
+            </p>
+          </Link>
+          <Link href="/courses">
+            <p
+              className="block tablet:inline-block tablet:mt-0 text-white hover:text-gray-200 mr-4"
+              onClick={toggleMenu}
+            >
+              Courses
             </p>
           </Link>
         </div>

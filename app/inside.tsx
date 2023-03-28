@@ -15,28 +15,28 @@ const Inside = () => {
         <div className='gridItem bg-violet-100 p-5 desktop:flex desktop:flex-col desktop:justify-center desktop:items-center'>
           <Image src={training} alt={"Training sessions"}></Image>
           <div>
-          <h3 className='font-bold text-xl desktop:text-left'>Training</h3>
+          <h3 className='font-bold text-xl desktop:text-left py-3'>Training</h3>
           </div>
           <p className='desktop:px-7'>Zero fluff trainings from industry experts that are packed full of knowledge you won't find anywhere else.</p>
         </div>
         <div className='gridItem bg-violet-100 p-5 desktop:flex desktop:flex-col desktop:justify-center desktop:items-center'>
           <Image src={training} alt={"Training sessions"}></Image>
           <div>
-          <h3 className='font-bold text-xl desktop:text-left'>Session</h3>
+          <h3 className='font-bold text-xl desktop:text-left py-3'>Session</h3>
           </div>
           <p className='desktop:px-7'>Zero fluff trainings from industry experts that are packed full of knowledge you won't find anywhere else.</p>
         </div>
         <div className='gridItem bg-violet-100 p-5 desktop:flex desktop:flex-col desktop:justify-center desktop:items-center'>
           <Image src={training} alt={"Training sessions"}></Image>
           <div>
-          <h3 className='font-bold text-xl desktop:text-left'>Physical classes</h3>
+          <h3 className='font-bold text-xl desktop:text-left py-3'>Physical classes</h3>
           </div>
           <p className='desktop:px-7'>Zero fluff trainings from industry experts that are packed full of knowledge you won't find anywhere else.</p>
         </div>
         <div className='gridItem bg-violet-100 p-5 desktop:flex desktop:flex-col desktop:justify-center desktop:items-center'>
           <Image src={training} alt={"Training sessions"}></Image>
           <div>
-          <h3 className='font-bold text-xl desktop:text-left'>Events</h3>
+          <h3 className='font-bold text-xl desktop:text-left py-3'>Events</h3>
           </div>
           <p className='desktop:px-7'>Zero fluff trainings from industry experts that are packed full of knowledge you won't find anywhere else.</p>
         </div>

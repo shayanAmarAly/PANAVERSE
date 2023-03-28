@@ -17,3 +17,17 @@ body{
     /* #333541 */
 }
 
+@layer components {
+    .profile {
+      @apply mx-10 my-5;
+    }
+    .profile img {
+      @apply w-14 h-12 object-cover rounded-full mr-4;
+    }
+    .profile h3 {
+      @apply text-sm;
+    }
+    .profile p {
+      @apply m-2 leading-snug ;
+    }
+  }

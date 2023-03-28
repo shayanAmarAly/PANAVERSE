@@ -9,9 +9,9 @@ const Collaboration = () => {
       <div>
         <h1 className='font-bold text-4xl tablet:text-7xl tablet:my-5 my-5 r text-indigo-200'>Our Colaborations</h1>
       </div>
-    <div className='flex'>
+    <div className='flex flex-shrink-0'>
       <Image src={panacloud} alt={"Panacloud"} width={"0"} className="w-[100px] tablet:w-[200px] shadow-md hover:rounded-lg hover:bg-indigo-200"></Image>
-      <Image src={saylani} alt={"Saylani"} width={"0"} className="w-[100px] tablet:w-[350px] shadow-md hover:rounded-lg hover:bg-indigo-200"></Image>
+      <Image src={saylani} alt={"Saylani"} width={"0"} className="w-[150px] tablet:w-[350px]  shadow-md hover:rounded-lg hover:bg-indigo-200"></Image>
     </div>
     </div>
   )

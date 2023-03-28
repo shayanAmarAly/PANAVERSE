@@ -15,40 +15,20 @@ function MyImageComponent(props: imageData) {
       <style jsx>{`
         .gridItem {
           padding: 1rem;
-          background-color: #eee;
+          background-color: #292b44;
+          color: "#e1d7ff"
+          border: 2px solid #e1d7ff
         }
       `}</style>
-    <div className="gridItem hover:rounded-lg hover:text-indigo-500 m-2">
+    <div className="gridItem text-slate-200 border-2 border-slate-500 hover:rounded-lg hover:text-indigo-500 m-2">
       <Image src={props.image} alt={"not availabkle"} width={"100"} height={"500"} className={"w-[100%] h-[55%]"}/>
-      <h2 className="font-bold text-2xl py-1 tablet:py-3">{props.title}</h2>
-      <p>{props.description}</p>
+      <h2 className="font-bold text-slate-100 text-2xl py-1 tablet:py-3">{props.title}</h2>
+      <p className="pb-3 ">{props.description}</p>
     </div>
     </>
   );
 }
 
-// gABjxLDxqDtQ2qfWo9p4Yt2eRnpMix4AmTiDr17FalU
-
-// function RandomImage() {
-//   const [imageUrl, setImageUrl] = useState('');
-
-//   useEffect(() => {
-//     async function fetchRandomImage() {
-//       const response = await fetch('https://api.unsplash.com/photos/random', {
-//         headers: {
-//           Authorization: 'gABjxLDxqDtQ2qfWo9p4Yt2eRnpMix4AmTiDr17FalU',
-//         },
-//       });
-//       const data = await response.json();
-//       setImageUrl(data.urls.regular);
-//     }
-//     fetchRandomImage();
-//   }, []);
-
-//   return (
-//     imageUrl
-//   );
-// }
 
 
 export default MyImageComponent;

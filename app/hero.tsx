@@ -14,13 +14,13 @@ const Hero = () => {
                 }
                 
             `}</style>
-            <div className='text-slate-300 md:text-slate-500 pt-10 mainContainer'>
-                <div className='text-center sm:w-1/2 lg:w-2/3 m-auto'>
-                    <h1 className='font-bold text-4xl md:text-5xl lg:text-7xl py-5 md:py-4 lg:py-4 lg:py-3 sm:leading-snug '>
-                    Master the skills <u className={style.shine}>web3.0</u> of <u className={style.shine}>Metaverse</u> development and designing.
+            <div className='text-slate-300 tablet:text-slate-500 pt-10 mainContainer'>
+                <div className='text-center w-full m-auto desktop:w-2/3'>
+                    <h1 className='font-bold text-slate-200 tablet:w-full m-auto px-3 text-4xl tablet:text-6xl desktop:text-7xl py-5 tablet:py-4 desktop:py-4 sm:leading-snug '>
+                    Master the skills <u className={style.shine}>web3.0</u> and <u className={style.shine}>Metaverse</u>.
                     </h1>
-                    <h3 className='pb-3 text-2xl md:text-4xl lg:text-5xl text-white'>Master the Technologies of the Future Today</h3>
-                    <button className="mb-20 bg-blue-500 hover:bg-blue-600 p-2 text-slate-300 font-bold my-5 px-4 hover:transition hover:duration-500 hover:ease-in-out hover:animate-pulse">
+                    <h3 className='py-5 px-6 text-xl w-3/4 m-auto tablet:text-xl desktop:text-3xl text-white'>Master the Technologies of the Future Today</h3>
+                    <button className="tablet:mb-14 bg-blue-500 hover:bg-blue-600 p-2 text-slate-300 font-bold my-5 px-4 hover:transition hover:duration-500 hover:ease-in-out hover:animate-pulse">
                         <Link href={"https://portal.piaic.org/signup"}>Enroll now</Link>
                     </button>
                 </div>

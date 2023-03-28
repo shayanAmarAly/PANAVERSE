@@ -50,7 +50,7 @@ const data = [
           margin-left: 10%;
         }
       `}</style>
-        <h1 className='text-4xl md:text-7xl font-bold text-center text-indigo-200 py-5 '> <u className={style.shine}>Courses</u> Available</h1>
+        <h1 className='text-4xl tablet:text-7xl font-bold text-center text-indigo-200 py-10 px-5 tablet:py-20 '> <u className={style.shine}>Courses</u> Available</h1>
       <div className="text-center w-4/5 tablet:w-8/12 m-auto justify-center">
 
         <div className="grid grid-cols-1 tablet:grid-cols-2 desktop:grid-cols-3 tablet:flex-wrap flex-wrap ">
@@ -70,20 +70,5 @@ const data = [
 };
 
 export default Courses;
-
-// export async function getStaticProps(){
-//   const response = await fetch('https://api.unsplash.com/photos/random', {
-//               headers: {
-//                   Authorization: 'gABjxLDxqDtQ2qfWo9p4Yt2eRnpMix4AmTiDr17FalU',
-//               },
-//           });
-//   const imageURL = await response.json();
-//   // console.log(imageURL);
-//   return {
-//       props:{ // Now data in Props automatically injected into the component.
-//           img: imageURL
-//       }
-//   }
-// }
 
 

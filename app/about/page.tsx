@@ -13,7 +13,7 @@ const Page = () => {
         Computing/IoT, Network Automation, and Bioinformatics Technologies technolgies globally. It is community of 
         Web 3 and Metaverse developers, designers, trainers, startup founders and service providers.
         </p>
-      <Image src={about} alt={"About panaverse"} className={""}></Image>
+      <Image src={about} alt={"About panaverse"} className={"max-w-fit"}></Image>
     </div>
     </>
 
